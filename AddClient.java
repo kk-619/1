@@ -13,3 +13,16 @@ System.out.println("The sum is: " + addServerIntf.add(d1, d2));
 }
 catch(Exception e) {
 System.out.println("Exception: " + e); } } }
+
+/*
+ * cmds:
+ * Terminal1>>
+ * javac *.java
+ * rmiregistry
+ * 
+ * Terminal2>>
+ * javaAddServer
+ * 
+ * Terminal3>>
+ * java AddClient 127.0.0.1 5 8
+ */
