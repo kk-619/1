@@ -1,5 +1,6 @@
 Terminal 1:
 >> javac *.java
+
 >> rmiregistry
 
 Terminal 2:
